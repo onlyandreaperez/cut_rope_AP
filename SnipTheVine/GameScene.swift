@@ -186,7 +186,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                                           using: { (body, point, normal, stop) in
                                             self.checkIfVineCutWithBody(body)
       })
-      
+      //
       // produce some nice particles
       showMoveParticles(touchPosition: startPoint)
     }
